@@ -1,0 +1,25 @@
+{
+  "name": "video_converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shamada81/video_converter.git"
+  },
+  "author": "Vladimir Levadny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shamada81/video_converter/issues"
+  },
+  "homepage": "https://github.com/Shamada81/video_converter#readme",
+  "dependencies": {
+    "inquirer": "^9.2.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
