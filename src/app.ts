@@ -1,6 +1,10 @@
+import { PropmptService } from './commands/prompt/prompt.service';
+
 export class App {
-	run() {
-		console.log("Старт отработал");
+	async run() {
+		const res = await (new PropmptService()).input("Число", "number");
+		console.log(res);
+
 	}
 }
 
