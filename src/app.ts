@@ -1,4 +1,4 @@
-import { PropmptService } from './commands/prompt/prompt.service';
+import { PropmptService } from './core/prompt/prompt.service';
 
 export class App {
 	async run() {
